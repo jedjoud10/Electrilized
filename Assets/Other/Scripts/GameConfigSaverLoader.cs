@@ -35,11 +35,10 @@ public class GameConfigSaverLoader
 public class GameConfig
 {
     #region QualitySettings
-    //Rendering
+    //Rendering    
     public int PixelLightCount;
     public int TextureQuality;
     public string AnisotropicTextures;
-    public int AntiAliasing;
     public bool SoftParticles;
     public bool RealtimeReflectionProbes;
     public int ReflectionProbesResolution;
@@ -47,6 +46,16 @@ public class GameConfig
     public bool BillboardsFaceCameraPosition;
     public float ResolutionScalingFixedDPI;
     public bool TextureStreaming;
+    //Post-processing
+    public bool usePostProcessing;
+    public bool useColorGrading;
+    public bool useChromaticAberration;
+    public bool useBloom;
+    public bool useVignette;
+    public bool useAutoExposure;
+    public bool useMotionBlur;
+    public bool useAmbientOcclusion;
+    public int useAntiAliasing;
     //Shadows
     public string ShadowsType;
     public string ShadowsResolution;
