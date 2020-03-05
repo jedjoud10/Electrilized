@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: LowPoly_Mat
   m_Shader: {fileID: 4800000, guid: 19432723937f36d47a01c3e92f7fdf61, type: 3}
-  m_ShaderKeywords: _INVERSEMATRIX_EXACT
+  m_ShaderKeywords: _INVERSEMATRIX_APPROXIMATE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,7 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _Glossiness: 0
-    - _InverseMatrix: 1
+    - _InverseMatrix: 0
     - _Metallic: 0
     - _pow: 2
     - _thres: 0.862
